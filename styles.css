@@ -1,0 +1,80 @@
+*{
+  padding:0;
+  margin:0;
+  font: "poppins", sans-serif;
+}
+
+body{
+  padding: 20px;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  text-align: center;
+  max-height: 100vh;
+  margin-top: 220px;
+  gap: 40px;
+  background-color:blue;
+  
+  }
+
+h1{
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+    }
+
+h2{
+  font-weight: 500;
+  letter-spacing: 4px;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.palindrome-container{
+  padding: 10px 60px;
+  border-radius: 20px;
+  background-color: white;
+  position: relative;
+  max-width:320px;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  text-align:center;
+  gap:20px;
+  box-shadow: 7px 7px 10px purple;
+  }
+
+  .palindrome-container input{
+    border-radius:30px;
+    padding: 3px 20px;
+  }
+
+  .palindrome-container button{
+    background-color:purple;
+    color: white;
+    padding: 5px 15px;
+    border-radius:30px;
+  }
+
+  .description-container{
+    padding: 20px;
+    background-color:green;
+    color:white;
+    max-width: 320px;
+    border-radius:30px;
+    font-size: 1.3rem;
+  }
+
+  #result{
+    font-weight:bold;
+  }
+
+  .showResult{
+    display:block;
+  }
+
+  .hideResult{
+    display:none;
+  }
+
+  
